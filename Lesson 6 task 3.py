@@ -5,8 +5,6 @@
 smaller = int(input("Введите первое меньшее число: "))
 bigger = int(input("Введите второе большее число: "))
 
-result = ""
-
 for i in range(smaller, bigger + 1):
     if i % 2 == 0:
         print(i, end=" ")
